@@ -1,0 +1,23 @@
+index.html
+  s_83a64dcd56aded::t_7679994d7bafcc 6,9,12,26,28,50,191
+README.md
+  s_83a64dcd56aded::t_7679994d7bafcc 3
+assets/favicon.svg
+  s_83a64dcd56aded::t_7679994d7bafcc 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "d3c0aeb1ad75aee4b10617b2d4a71acf223e5a0e",
+  "prompts": {},
+  "sessions": {
+    "s_83a64dcd56aded": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e313d-9edf-75a2-9b6a-bab9b448b024",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
