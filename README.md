@@ -1,6 +1,6 @@
 # ljgabc.github.io
 
-Personal GitHub Pages homepage for LJG.
+Personal GitHub Pages homepage for Jiangang Li.
 
 ## Local Preview
 
