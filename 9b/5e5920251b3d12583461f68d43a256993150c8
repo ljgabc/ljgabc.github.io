@@ -1,0 +1,31 @@
+script.js
+  s_83a64dcd56aded::t_7fe7774af1dd47 1-33
+assets/favicon.svg
+  s_83a64dcd56aded::t_7fe7774af1dd47 1-5
+README.md
+  s_83a64dcd56aded::t_7fe7774af1dd47 1-17
+index.html
+  s_83a64dcd56aded::t_94d8b8a6643af0 183
+  s_83a64dcd56aded::t_7fe7774af1dd47 1-140,142-165,167-178,180-182,184-196
+  s_83a64dcd56aded::t_4d858b3da2af80 141,166,179
+styles.css
+  s_83a64dcd56aded::t_7fe7774af1dd47 1-575
+.nojekyll
+  s_83a64dcd56aded::t_91b975ac711424 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "9b5e5920251b3d12583461f68d43a256993150c8",
+  "prompts": {},
+  "sessions": {
+    "s_83a64dcd56aded": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e313d-9edf-75a2-9b6a-bab9b448b024",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
