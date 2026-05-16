@@ -1,0 +1,19 @@
+index.html
+  s_83a64dcd56aded::t_8493886dadb1fc 118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "39e41cb3402516cede56ca2d73f8db2686abbbd4",
+  "prompts": {},
+  "sessions": {
+    "s_83a64dcd56aded": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e313d-9edf-75a2-9b6a-bab9b448b024",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
