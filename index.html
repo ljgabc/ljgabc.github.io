@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LJG | Embodied AI, VLA, WAM, RL</title>
+    <meta
+      name="description"
+      content="Personal homepage for LJG, focused on embodied intelligence, vision-language-action policies, world-action models, robot learning, and reinforcement learning."
+    />
+    <meta name="theme-color" content="#14191f" />
+    <meta property="og:title" content="LJG | Embodied AI, VLA, WAM, RL" />
+    <meta
+      property="og:description"
+      content="Research and engineering notes on embodied intelligence, VLA, world-action models, robot data systems, and RL post-training."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ljgabc.github.io/" />
+    <meta property="og:image" content="https://ljgabc.github.io/assets/embodied-control-field.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="LJG home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>LJG</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#research">Research</a>
+        <a href="#systems">Systems</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Embodied AI / VLA / WAM / RL</p>
+          <h1 id="hero-title">LJG</h1>
+          <p class="hero-lede">
+            I build robot learning systems that connect perception, language, world dynamics, and action.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button button-primary" href="#research">Explore Research</a>
+            <a class="button button-secondary" href="https://github.com/ljgabc">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Research summary">
+        <div class="container intro-grid">
+          <p class="section-kicker">Focus</p>
+          <p class="intro-copy">
+            My work centers on embodied intelligence: turning multimodal observations and natural-language goals into reliable robot behavior. I am especially interested in scalable action representations, world-action models, VLA policy learning, data-centric training pipelines, and RL-based post-training for real robot deployment.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="container section-heading">
+          <p class="section-kicker">Research Directions</p>
+          <h2 id="research-title">Models that reason through action.</h2>
+        </div>
+        <div class="container research-grid">
+          <article class="research-card">
+            <div class="card-index">01</div>
+            <h3>Embodied Intelligence</h3>
+            <p>
+              Generalist robot agents that ground task intent in physical state, object interaction, and safety-aware execution.
+            </p>
+          </article>
+          <article class="research-card">
+            <div class="card-index">02</div>
+            <h3>VLA Policies</h3>
+            <p>
+              Vision-language-action models for closed-loop control, instruction following, and cross-robot behavior transfer.
+            </p>
+          </article>
+          <article class="research-card">
+            <div class="card-index">03</div>
+            <h3>World-Action Models</h3>
+            <p>
+              Latent dynamics models that connect future visual states, command context, and action generation.
+            </p>
+          </article>
+          <article class="research-card">
+            <div class="card-index">04</div>
+            <h3>RL Post-Training</h3>
+            <p>
+              Reinforcement learning and correction loops that sharpen policies after supervised multimodal pretraining.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section system-band" id="systems" aria-labelledby="systems-title">
+        <div class="container split-layout">
+          <div class="section-heading compact">
+            <p class="section-kicker">Current Systems</p>
+            <h2 id="systems-title">Robot learning infrastructure from data to deployment.</h2>
+            <p>
+              I work on clean-room embodied AI stacks that make action supervision explicit, reusable, and auditable across datasets, robots, and training stages.
+            </p>
+          </div>
+          <div class="system-list">
+            <article>
+              <h3>OneRowAM</h3>
+              <p>
+                A world-action model training framework with open backbones, multimodal sequence construction, latent reasoning, flow matching, and real-robot deployment gates.
+              </p>
+            </article>
+            <article>
+              <h3>Profiled Action Contracts</h3>
+              <p>
+                A structured action interface for heterogeneous robot datasets, including masks, profiles, task-space semantics, adapter checks, and evidence artifacts.
+              </p>
+            </article>
+            <article>
+              <h3>Robot Data Systems</h3>
+              <p>
+                Dataset ingestion, canonical schema conversion, materialized training chunks, audit tools, and replay or shadow validation before hardware execution.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="writing" aria-labelledby="writing-title">
+        <div class="container section-heading">
+          <p class="section-kicker">Writing and Artifacts</p>
+          <h2 id="writing-title">Notes, papers, and engineering traces.</h2>
+        </div>
+        <div class="container timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2026</div>
+            <div>
+              <h3>Profiled Action Contracts for Robot Learning</h3>
+              <p>
+                Paper draft and review artifacts around action-space contracts, dataset adapters, robot output adapters, and reproducible evidence tables.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Ongoing</div>
+            <div>
+              <h3>World-Action Model Training</h3>
+              <p>
+                Experiments on multimodal backbones, prior-posterior latent structure, future-state supervision, and data mixture design.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Ongoing</div>
+            <div>
+              <h3>RL and Real-Robot Validation</h3>
+              <p>
+                Workflows for post-training, correction data, safety gates, replay, shadow execution, and staged hardware rollout.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-band" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2 id="contact-title">Open to focused conversations about embodied AI systems.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/ljgabc">GitHub: @ljgabc</a>
+            <a href="https://github.com/ljgabc?tab=repositories">Research and code repositories</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <p>© <span data-year>2026</span> LJG. Built for GitHub Pages.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
